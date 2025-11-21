@@ -201,7 +201,7 @@ python -m unittest tests.test_circle
 
 - `d080c78` L-04: Triangle added
 
-- [хэш коммита] L-04: Add unit tests for all modules
+- `289925a` L-04: Add unit tests for all modules
 
 ##### Хронология изменений
 `L-03`: Добавлена базовая документация

@@ -13,6 +13,7 @@ def area(a):
     >>> area(4)
     16
     '''
+    assert a > 0, 'semanticly side must be positive'
     return a * a
 
 
@@ -30,4 +31,5 @@ def perimeter(a):
     >>> perimeter(4)
     16
     '''
+    assert a > 0, 'semanticly side must be positive'
     return 4 * a

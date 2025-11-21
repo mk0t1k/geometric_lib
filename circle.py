@@ -15,6 +15,7 @@ def area(r):
     >>> area(5)
     78.53981633974483
     '''
+    assert r > 0
     return math.pi * r * r
 
 
@@ -32,5 +33,6 @@ def perimeter(r):
     >>> perimeter(5)
     31.41592653589793
     '''
+    assert r > 0
     return 2 * math.pi * r
 
